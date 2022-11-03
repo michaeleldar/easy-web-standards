@@ -28,3 +28,5 @@ Versions are stored in the directory tree below:
   0.2
   etc
 ```
+
+Also, files can only be run with a specification with the very same version, or a later minor version than it. For example, a file made in AdvanceMark 6.3 can be run with a 6.3 interpreter, or a 6.8 interpreter, but not a 6.2 interpreter or a 7.6 interpreter. 
