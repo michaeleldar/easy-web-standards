@@ -1,0 +1,34 @@
+Syntax:
+  There are three special symbols: #, { and }.
+  All of these are followed by a command name.
+  # applies the command to the rest of the line
+  { applies the command until a } with the same command name after it.
+  If there are no commands to be applied to the text, the text is just printed to the screen.
+  
+Commands:
+  version: This defines the version of the language to be used. E.g #version advance-mark 1.0
+  title: This makes the text bigger. E.g #title Hello, World!
+  comment: This just doesn't display the text in the browser.
+
+Notes:
+  A version command MUST be present as the first line of the file, or else the file is invalid.
+  All new lines should be preserved.
+  On a line of code with a { or } command on it, there should be no other text.
+  
+Example:
+  #version advance-mark 1.0
+  Normal Text
+  More Normal Text
+  #title Big Text!
+  Line Break Below
+  
+  {title
+  Start of the big text...
+  More big text
+  }title
+  No more big text
+  #comment You can't see this.
+  But you can see this.
+  {comment
+  EOL
+  }comment
