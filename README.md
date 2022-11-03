@@ -12,3 +12,19 @@ The HTML replacement is "AdvanceMark". You can find the specification in the Adv
 The other replacements will be made soon.
 
 Note: These standards documents will soon be ported to AdvanceMark.
+
+# Versioning
+
+In the version 5.8, 5 is the major release and 8 is the minor. Major releases are not backward compatable, but minor releases are.
+Versions are stored in the directory tree below:
+```
+0.x
+  0.1
+  0.2
+  0.3
+  0.4
+1.x
+  0.1
+  0.2
+  etc
+```
